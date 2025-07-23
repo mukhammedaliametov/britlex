@@ -6,7 +6,7 @@ import reading_card from "../assets/reading_card.png";
 
 const Skills = () => {
   return (
-    <div id="skills" className="max-w-[1200px] mx-auto my-[80px] ">
+    <div id="skills" className="max-w-[1200px] mx-auto my-[50px] pt-[80px]">
       <h2 className="text-center font-semibold text-[38px]">Skills</h2>
       <div className="flex items-center gap-[20px] mt-[40px]">
         <div className="bg-[#F5F5F5] p-[30px] rounded-[10px] w-[80%] h-[800px]">
@@ -27,8 +27,8 @@ const Skills = () => {
         </div>
         <div>
           <div className="flex justify-between items-center gap-[20px]">
-            <div className="bg-[#F5F5F5] p-[30px] pt-0 rounded-[10px] h-[480px]">
-              <img src={writing_card} alt="skills_card2" className="w-[240px] relative left-[100px]" />
+            <div className="bg-[#F5F5F5] p-[30px] pt-0 rounded-[10px]  h-[480px]">
+              <img src={writing_card} alt="skills_card2" className="w-[240px] ml-[100px]" />
               <h3 className="pb-[10px] font-semibold text-[25px]">Writing</h3>
               <p className="text-[#8F95A5] text-[15px]">
                 One of the most important and extensive areas of natural

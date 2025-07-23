@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="max-w-[1200px] mx-auto my-[150px] flex justify-between items-center gap-[60px]"
+      className="max-w-[1200px] mx-auto my-[150px] flex justify-between items-center gap-[60px] pt-[80px]"
     >
       <div>
         <img src={ContactImg} alt="contact_img" width={600} />

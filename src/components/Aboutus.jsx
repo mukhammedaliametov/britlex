@@ -3,7 +3,7 @@ import AboutImg from '../assets/about_img.png';
 
 const Aboutus = () => {
   return (
-    <div id="aboutus" className="max-w-[1200px] mx-auto my-[200px] flex justify-between items-center gap-[30px]"> 
+    <div id="aboutus" className="max-w-[1200px] mx-auto my-[100px] pt-[80px] flex justify-between items-center gap-[30px]"> 
       <div className="w-[500px]">
         <h2 className="font-semibold text-[38px]">About Us</h2>
         <p className="text-[#8F95A5] my-[20px] text-[16px] ">

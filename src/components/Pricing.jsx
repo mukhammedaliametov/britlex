@@ -5,7 +5,7 @@ import PricingImg3 from "../assets/pricing_card3.png";
 
 const Pricing = () => {
   return (
-    <div id="pricing" className="max-w-[1200px] mx-auto">
+    <div id="pricing" className="max-w-[1200px] mx-auto pt-[80px]">
       <h2 className="text-center font-semibold text-[38px]">Pricing</h2>
       <div className="flex items-center gap-[30px] mt-[30px]">
         <div className="w-[40%]">
@@ -30,7 +30,7 @@ const Pricing = () => {
           </div>
         </div>
         <div className="w-[40%]">
-          <img src={PricingImg3} width={300} alt="pricing_card_img_3" className="relative h-[250px]" />
+          <img src={PricingImg3} width={300} alt="pricing_card_img_3" className="h-[250px]" />
           <h3 className="text-[#263238] text-[20px] font-semibold my-[13px]">Personal Tuition</h3>
           <p className="text-[#8F95A5] text-[16px]">
             Online one-to-one English tutoring – enjoy our first session for

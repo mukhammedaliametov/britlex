@@ -1,16 +1,35 @@
 import React from "react";
+import { useEffect, useState } from "react";
 import Logo from "../assets/Britlex.png";
 
 const Header = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 10) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  })
+
   const navItem = [
-    { name: "Home", href: "#" },
+    { name: "Home", href: "#home" },
     { name: "Skills", href: "#skills" },
     { name: "About Us", href: "#aboutus" },
     { name: "Pricing", href: "#pricing" },
     { name: "Contact", href: "#contact" },
   ];
+
   return (
-    <div className="flex max-w-[1200px] mx-auto justify-between items-center py-[20px]">
+    <div className={isScrolled ? "fixed w-full shadow-md bg-[#fffffffa]" : "fixed w-full"}>
+    <div className="flex  max-w-[1200px] bg-transparent z-20 mx-auto justify-between items-center py-[20px]">
       <a href="javascript:void(0)">
         <img src={Logo} alt="" className="w-[80px]" />
       </a>
@@ -30,6 +49,7 @@ const Header = () => {
           Let’s Talk
         </button>
       </div>
+    </div>
     </div>
   );
 };
