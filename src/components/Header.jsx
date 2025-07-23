@@ -28,8 +28,8 @@ const Header = () => {
   ];
 
   return (
-    <div className={isScrolled ? "fixed w-full shadow-md bg-[#fffffffa] transition-shadow duration-300" : "fixed w-full"}>
-    <div className="flex  max-w-[1200px] bg-transparent z-20 mx-auto justify-between items-center py-[20px]">
+    <div className={isScrolled ? "fixed w-full shadow-md bg-[#fffffffa] transition-shadow duration-300 z-50" : "fixed w-full z-50"}>
+    <div className="flex  max-w-[1200px] bg-transparent  mx-auto justify-between items-center py-[20px]">
       <a href="#home">
         <img src={Logo} alt="" className="w-[80px]" />
       </a>

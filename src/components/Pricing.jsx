@@ -7,7 +7,7 @@ const Pricing = () => {
   return (
     <div id="pricing" className="max-w-[1200px] mx-auto pt-[80px]">
       <h2 className="text-center font-semibold text-[38px]">Pricing</h2>
-      <div className="flex items-center gap-[30px] mt-[30px]">
+      <div className="flex items-center gap-[30px] mt-[30px]" data-aos="fade-up">
         <div className="w-[40%]">
           <img src={PricingImg1} width={280} alt="pricing_card_img_1" />
           <h3 className="text-[#263238] text-[20px] font-semibold my-[15px]">Self-study online course</h3>
