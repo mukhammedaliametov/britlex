@@ -6,6 +6,7 @@ import Aboutus from './components/Aboutus';
 import Pricing from './components/Pricing';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ToTop from './components/ToTop';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Aboutus />
         <Pricing />
         <Contact />
+        <ToTop />
       </main>
       <Footer />
     </>

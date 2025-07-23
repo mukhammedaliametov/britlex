@@ -28,9 +28,9 @@ const Header = () => {
   ];
 
   return (
-    <div className={isScrolled ? "fixed w-full shadow-md bg-[#fffffffa]" : "fixed w-full"}>
+    <div className={isScrolled ? "fixed w-full shadow-md bg-[#fffffffa] transition-shadow duration-300" : "fixed w-full"}>
     <div className="flex  max-w-[1200px] bg-transparent z-20 mx-auto justify-between items-center py-[20px]">
-      <a href="javascript:void(0)">
+      <a href="#home">
         <img src={Logo} alt="" className="w-[80px]" />
       </a>
       <nav>
