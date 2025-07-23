@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='max-w-[1200px] mx-auto border-t-[1px] border-[#C4C4C4] py-[30px] mb-[20px] flex justify-between items-center'>
            <div>
-             <img src={Logo} alt="logo" />
+             <img src={Logo} alt="logo" width={80} />
            </div>
            <div className='flex gap-[30px]'>
             <a href="javascript:void(0)" className='text-[#8F95A5]'>Terms and Conditions</a>
